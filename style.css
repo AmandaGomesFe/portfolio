@@ -1,4 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap');
+
+
 body{
     background: #F5F5F5;
+    
 }
+
+.container-margin {
+margin: 0 15%;
+}
+.container-nav {
+    margin: 20px 0 30px 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+.menu-listas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-navegacao {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+    color: rgba(34, 34, 34, 0.87);
+}
+
+.nome {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.container-apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Raleway', sans-serif;
+}
+.container-apresentacao h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.container-apresentacao p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.link-curriculo {
+    display: flex;
+    
+}
+
+.link-curriculo li {
+    margin-right: 20px;
+    
+   
+}
+
+.imagem-perfil {
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.box-azul {
+    background: #EAF2FD;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+    
+}
+
+.div-sobre-mim{
+    margin: 0 15%;
+}
+
+.div-sobre-mim h2 {
+    text-align: left;
+}
+.div-sobre-mim p {
+    width: 70%;
+    padding: 0 0 30px 0;
+    text-align: justify;
+}
+
+.container-skills{
+    margin: 0 15%;
+}
+
+
+.skills-lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+
+    background-color: #ffffff;
+    width: 100px;
+    padding: 50px;
+    margin-bottom: 60px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.box-skills h3 {
+    padding: 20px 0 5px 0;
+    text-align: center;
+    font-size: 18px;
+}
+.logo-html{
+    width: 100px;
+}
+
+.logo-css{
+    width: 50px;
+    padding: 0 0 0 30%;
+}
+
+.logo-javascript{
+    width: 60px;
+    padding: 0 0 0 20%;
+}
+
+.logo-git{
+    width: 70px;
+    padding: 0 0 0 16%;
+}
+
+.subtitulo {
+    padding: 40px 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#container-formacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-bottom: 50px;
+}
+
+#container-formacao li{
+    line-height: 25px;
+    font-size: 18px;
+}
+#container-formacao h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+#container-formacao em{
+    font-style: italic;
+}
+
+
+
 

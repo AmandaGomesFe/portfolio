@@ -11,56 +11,126 @@
     <link rel="shortcut icon" href="#" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <img src="imagens/Vector.png" alt="">
-                    <img src="imagens/Vector-menor.png" alt="">
-                    <img src="imagens/Vector-menor.png" alt="">
-                    Amanda Gomes Ferreira
-                </li>
-                <li>
-                    <a href="#">Sobre mim</a>
-                </li>
-                <li>
-                    <a href="">Skills</a>
-                </li>
-                <li>
-                    <a href="">Hobbies</a>
-                </li>
-                <li>
-                    <a href="">Formação</a>
-                </li>
-                <li>
-                    <a href="">Projetos</a>
-                </li>
-                <li>
-                    <a href="">amandagf677@gmail.com</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="container-margin">
+        <div class="container-nav">
+            <nav class="menu">
 
-        <h1>Olá, meu nome é Amanda Gomes e construo páginas web</h1>
-        <img src="#" alt="">
-        <p>Eu sou estudante de Análise e Desenvolvimento de Sistemas e atualmente estou participando do projeto Oracle ONE na Alura.</p>
-        <ul>
-            <nav>
-                <li>
-                    <a href="">Github</a>
-                    <img src="imagens/setinha.png" alt="">
-                </li>
-                <li>
-                    <a href="">Linkedin</a>
-                    <img src="imagens/setinha.png" alt="">
-                </li>
-                <li>
-                    <a href="">Currículo</a>
-                    <img src="imagens/setinha.png" alt="">
-                </li>
+                <div class="nome">
+                    <img src="imagens/Vector.png" alt="">
+                    <h1>Amanda Gomes Ferreira</h1>
+                </div>
+
+                <ul class="menu-listas">
+                    <li class = "menu-navegacao">
+                        <a href="#">Sobre mim</a>
+                    </li>
+                    <li class = "menu-navegacao">
+                        <a href="">Skills</a>
+                    </li>
+                    <li class = "menu-navegacao">
+                        <a href="">Hobbies</a>
+                    </li>
+                    <li class = "menu-navegacao">
+                        <a href="">Formação</a>
+                    </li>
+                    <li class = "menu-navegacao">
+                        <a href="">Projetos</a>
+                    </li>
+                    <li class = "menu-navegacao">
+                        <a href=""><strong>amandagf677@gmail.com</strong></a>
+                    </li>
+                </ul>
             </nav>
-        </ul>
+        </div>
+
+        <div class="container-apresentacao">
+            <div class="apresentacao">
+                <h1>Olá, meu nome é Amanda Gomes Ferreira e estudo desenvolvimento web</h1>
+                
+                <p>Eu sou estudante de Análise e Desenvolvimento de Sistemas e atualmente estou participando do projeto Oracle ONE na Alura.</p>
+                <nav>
+                    <ul class="link-curriculo">
+                
+                        <li>
+                            <a href="https://github.com/AmandaGomesFe" target="_blank">Github</a>
+                            <img src="imagens/setinha.png" alt="">
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/amandagomesf/" target="_blank">Linkedin</a>
+                            <img src="imagens/setinha.png" alt="">
+                        </li>
+                        <li>
+                            <a href="">Currículo</a>
+                            <img src="imagens/setinha.png" alt="">
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="imagens/fotoAmanda.jpg" alt="" class="imagem-perfil">
+        </div>
     </header>
     
+    <main>
+        <section class="box-azul">
+            <div class="div-sobre-mim">
+                <h2 class="subtitulo">Sobre mim</h2>
+                <p>Meu nome é Amanda Gomes Ferreira, tenho 18 anos, sou de Santo André-SP e estou no 1º semestre do curso de Análise e Desenvolvimento de Sistemas na Universidade Municipal de São Caetano do Sul. <br><br> Gosto muito de tecnologia e tenho preferência pela área de Front end. Atualmente estudo participo do programa de Formação Oracle Next Education - ONE, onde tenho a oportunidade de estudar HTML, CSS e JavaScript. O meu maior objetivo no momento é conseguir um estágio na área de programação ou suporte, para entrar em contato comigo acesse o meu Linkedin ou me mande um email.</p>
+            </div>
+        </section>
+
+        <section class="container-margin">
+            <div class="skills" class="container-margin">
+
+                <h2 class="subtitulo">Skills</h2>
+
+                <ul class="skills-lista">
+                    <li class="box-skills">
+                        <img src="imagens/logo-html.png" alt="Logo do html5" class="logo-html">
+                        <h3>HTML5</h3>
+                    </li>
+
+                    <li class="box-skills">
+                        <img src="imagens/logo-css.png" alt="Logo do css" class="logo-css">
+                        <h3>CSS</h3>
+                    </li>
+
+                    <li class="box-skills">
+                        <img src="imagens/javascript-logo.png" alt="Logo do JavaScript" class="logo-javascript">
+                        <h3>JavaScript</h3>
+                    </li>
+
+                    <li class="box-skills">
+                        <img src="imagens/git-logo.png" alt="Logo do Git" class="logo-git">
+                        <h3>Git</h3>
+                    </li>
+
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="box-azul" class="container-formacao">
+            <h2 class="subtitulo">Formação Acadêmica</h2>
+            <div class="container-margin" id="container-formacao">
+                <img src="imagens/logo-uscs.png" alt="Logo da USCS">
+                
+                <ul class="descricao-formacao">
+                    <li>
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    </li>
+                    <li>
+                        <em>Universidade Municipal de São Caetano do Sul</em>
+                    </li>
+                    <li>
+                        <strong>Periodo:</strong> Matutino
+                    </li>
+                    <li>
+                        <strong>Previsão de Formação:</strong> 07/2024
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+    </main>
 </body>
 </html>
