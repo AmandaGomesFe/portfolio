@@ -3,7 +3,7 @@
 
 body{
     background: #F5F5F5;
-    
+    font-family: 'Raleway', sans-serif;
 }
 
 .container-margin {
@@ -18,7 +18,6 @@ margin: 0 15%;
     align-items: center;
 
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -41,7 +40,7 @@ a {
 
 strong {
     font-weight: bold;
-    color: rgba(34, 34, 34, 0.87);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .nome {
@@ -55,7 +54,6 @@ strong {
     justify-content: space-between;
     align-items: center;
 
-    font-family: 'Raleway', sans-serif;
 }
 .container-apresentacao h1{
     font-size: 40px;
@@ -87,8 +85,7 @@ strong {
 }
 
 .box-azul {
-    background: #EAF2FD;
-    font-family: 'Raleway', sans-serif;
+    background: #f1e5ff96;
     line-height: 20px;
     
 }
@@ -160,7 +157,6 @@ strong {
     padding: 40px 0;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 
@@ -184,6 +180,46 @@ strong {
     font-style: italic;
 }
 
+.container-projeto {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.container-projeto img {
+    width: 50%;
+}
+
+.descricao-projetos{
+    flex-direction: column;
+    
+} 
+
+.descricao-projetos h3 {
+    font-size: 20px;
+    
+}
+
+.margin-projetos {
+    margin: 0 0 5% 0;
+}
+
+.descricao-projetos button{
+    width: 100%;
+    height: 15%;
+
+    border: 2px solid rgb(220, 211, 224);
+    font-size: 15px;
+    font-weight: bold;
+    background: #f1e5ff96;
+}
+
+button:hover {
+    background: #c99aff9c;
+    color: white;
+}
 
 
-
+.img-linkedin {
+    width: 5%;
+}
